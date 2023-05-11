@@ -72,6 +72,7 @@ button {
     border-radius: 20px;
     padding: 8px;
     font-family: "Neue Haas Unica", sans-serif;
+    background-color: aquamarine;
 }
 
 
@@ -130,6 +131,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 52px;
+    color: aliceblue;
 }
 
 .package {
@@ -137,17 +139,23 @@ button {
 }
 
 .package-1, .package-2, .package-3, .package-4 {
-    border: 1px solid #eee;
+    border: 4px solid #7274e3;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
     width: 100px;
     height: 100px;
     margin-bottom: 8px;
+    
+}
+
+.packages img {
+    width: 100px;
+    height: 100px;
 }
 
 .quote {
     background-color: rgba(44, 44, 131, 0.95);
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,7 +184,7 @@ button {
 
 .signup {
     background-color: rgba(66, 66, 106, 0.2);
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,6 +208,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: aliceblue;
 
 }
 
